@@ -63,9 +63,15 @@
         });
 
         // Inicializar efectos
+        function isMobile() {
+            return /Mobi|Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
-            createCircuits();
-            createParticles();
+            if (!isMobile()) {
+                createCircuits();
+                createParticles();
+            }
         });
 
         // Efecto de paralaje en el mouse
