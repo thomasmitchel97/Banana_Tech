@@ -75,14 +75,3 @@
         });
 
         // Efecto de paralaje en el mouse
-        document.addEventListener('mousemove', function(e) {
-            const card = document.querySelector('.main-card');
-            const rect = card.getBoundingClientRect();
-            const centerX = rect.left + rect.width / 2;
-            const centerY = rect.top + rect.height / 2;
-            
-            const moveX = (e.clientX - centerX) * 0.01;
-            const moveY = (e.clientY - centerY) * 0.01;
-            
-            card.style.transform = `translateX(${moveX}px) translateY(${moveY}px)`;
-        });
