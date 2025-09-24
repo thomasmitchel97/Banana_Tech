@@ -1,0 +1,57 @@
+ /* Fondo degradado */
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(45deg, rgba(255,225,53,0.9) 60%, rgba(8,0,0,1) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Contenedor principal */
+    .card {
+  background: linear-gradient(45deg, rgba(8,0,0,0.6) 0%, rgba(255,225,53,0.9) 60%, rgba(255,225,53,0) 100%);
+  padding: 80px 30px 30px 30px; /* Más espacio arriba */
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.6);
+    }
+
+    .card h1 {
+      margin: 0;
+      font-size: 35px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .card p {
+      margin: 10px 0 20px;
+      font-size: 22px;
+      color: #222;
+    }
+
+    /* Imagen */
+    .card img {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+    /* Botón */
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #4d692d;
+      color: #04EBE9;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #388E3C;
+    }
