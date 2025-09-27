@@ -1,8 +1,29 @@
+/* Fuente stencil para BANANA */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+.stencil {
+  font-family: 'Orbitron', Arial, sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Degradado dorado para TECH */
+.tech-gradient {
+  font-family: 'Orbitron', Arial, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00f0ff 0%, #0051ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  letter-spacing: 0.08em;
+  text-shadow: 0 2px 8px rgba(255, 215, 0, 0.25);
+}
  /* Fondo degradado */
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(45deg, rgba(255,225,53,0.9) 60%, rgba(8,0,0,1) 100%);
+  background: linear-gradient(45deg, rgba(255,225,53,0.9) 60%, rgba(8,0,0,0.7) 100%);
   display: block;
   height: auto;
     }
@@ -20,16 +41,17 @@
     }
 
     .card h1 {
-      margin: 0;
-      font-size: 40px;
-      font-weight: bold;
-      color: #000;
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
     }
 
     .card p {
-      margin: 10px 0 20px;
-      font-size: 22px;
-      color: #222;
+  margin: 10px 0 20px;
+  font-size: 22px;
+  color: #222;
+  text-align: center;
     }
 
     /* Imagen */
