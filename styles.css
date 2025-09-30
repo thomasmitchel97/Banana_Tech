@@ -1,3 +1,9 @@
+/* Mejorar la presentación de las listas en las tarjetas */
+.card li {
+  font-size: 20px;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
 /* Fuente stencil para BANANA */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 .stencil {
