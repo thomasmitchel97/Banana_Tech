@@ -7,7 +7,7 @@
   color: #222;
 }
 
-/* Degradado dorado para TECH */
+/* Degradado azul-neón para TECH */
 .tech-gradient {
   font-family: 'Orbitron', Arial, sans-serif;
   font-weight: bold;
@@ -34,7 +34,7 @@
   padding: 30px 30px 30px 30px; /* Menos espacio arriba */
   border-radius: 10px;
   text-align: center;
-  width: 300px;
+  width: 500px; /* Ancho de las tarjetas aumentado */
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 4px 15px rgba(0,0,0,0.6);
